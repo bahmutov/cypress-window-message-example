@@ -1,0 +1,32 @@
+{
+  "name": "cypress-window-message-example",
+  "version": "1.0.0",
+  "description": "Example spying on window postMessage calls from Cypress tests",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "serve -p 6001 public",
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "dev": "start-test 6001 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-window-message-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-window-message-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-window-message-example#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "prettier": "^2.6.2",
+    "serve": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
